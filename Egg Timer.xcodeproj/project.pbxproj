@@ -13,6 +13,7 @@
 		48D07C5B25A77BD000072432 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48D07C5925A77BD000072432 /* Main.storyboard */; };
 		48D07C5D25A77BD500072432 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48D07C5C25A77BD500072432 /* Assets.xcassets */; };
 		48D07C6025A77BD500072432 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48D07C5E25A77BD500072432 /* LaunchScreen.storyboard */; };
+		48D07C6925A77C0300072432 /* alarm_sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 48D07C6825A77C0300072432 /* alarm_sound.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		48D07C5C25A77BD500072432 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		48D07C5F25A77BD500072432 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		48D07C6125A77BD500072432 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		48D07C6825A77C0300072432 /* alarm_sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = alarm_sound.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,11 +58,12 @@
 		48D07C5225A77BD000072432 /* Egg Timer */ = {
 			isa = PBXGroup;
 			children = (
-				48D07C5325A77BD000072432 /* AppDelegate.swift */,
-				48D07C5525A77BD000072432 /* SceneDelegate.swift */,
 				48D07C5725A77BD000072432 /* ViewController.swift */,
 				48D07C5925A77BD000072432 /* Main.storyboard */,
 				48D07C5C25A77BD500072432 /* Assets.xcassets */,
+				48D07C6825A77C0300072432 /* alarm_sound.mp3 */,
+				48D07C5325A77BD000072432 /* AppDelegate.swift */,
+				48D07C5525A77BD000072432 /* SceneDelegate.swift */,
 				48D07C5E25A77BD500072432 /* LaunchScreen.storyboard */,
 				48D07C6125A77BD500072432 /* Info.plist */,
 			);
@@ -126,6 +129,7 @@
 			files = (
 				48D07C6025A77BD500072432 /* LaunchScreen.storyboard in Resources */,
 				48D07C5D25A77BD500072432 /* Assets.xcassets in Resources */,
+				48D07C6925A77C0300072432 /* alarm_sound.mp3 in Resources */,
 				48D07C5B25A77BD000072432 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
